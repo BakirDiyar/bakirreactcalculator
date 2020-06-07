@@ -8,7 +8,7 @@ export const btnList = [
   7,
   8,
   9,
-  ".",
+  "-",
   4,
   5,
   6,
@@ -16,7 +16,7 @@ export const btnList = [
   1,
   2,
   3,
-  "-",
+  "=",
   0,
-  "="
+  "."
 ];

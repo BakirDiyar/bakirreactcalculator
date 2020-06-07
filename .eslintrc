@@ -1,3 +1,9 @@
 {  
-    "extends": ["react-app", "plugin:prettier/recommended"]
+    "extends": [
+        "plugin:prettier/recommended",
+        "prettier/flowtype",
+        "prettier/react",
+        "prettier/standard",
+        "steelbrain"
+    ]
 }

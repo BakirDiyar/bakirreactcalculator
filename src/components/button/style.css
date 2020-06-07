@@ -15,5 +15,16 @@
 
 .btn:hover{
     box-shadow: -6px -6px 9px rgba(0, 0, 0, 0.4);
+}
 
+.btn:nth-child(1),
+.btn:nth-child(2),
+.btn:nth-child(3),
+.btn:nth-child(4),
+.btn:nth-child(8),
+.btn:nth-child(12),
+.btn:nth-child(16),
+.btn:nth-child(19)
+{
+    color: #ff0000;
 }

@@ -10,12 +10,10 @@
     line-height: 40px;
     box-shadow: -6px -6px 9px #fff, 6px 6px 9px rgba(0, 0, 0, 0.4);
     font-size: 20px;
-    transition: ease .2s;
+    transition: ease .6s;
 }
 
-.btn:hover{
-    box-shadow: -6px -6px 9px rgba(0, 0, 0, 0.4);
-}
+.btn:hover{ box-shadow: -6px -6px 9px rgba(0, 0, 0, 0.4); }
 
 .btn:nth-child(1),
 .btn:nth-child(2),

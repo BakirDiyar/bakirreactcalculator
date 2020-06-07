@@ -1,0 +1,13 @@
+.btn{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    text-align: center;
+    cursor: pointer;
+    line-height: 70px;
+    font-size: 20px;
+}
+

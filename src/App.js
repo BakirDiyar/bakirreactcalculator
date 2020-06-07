@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import { Result } from "./components/view";
+import { Btn } from "./components/button";
+import { btnList } from "./components/button/listButton";
 
-export default function App() {
+export function Calculator({ InitialValue }) {
+  const [result, setResult] = useState(InitialValue);
+
+  const calc = (e) => {
+    let { innerHTML } = e.target;
+    let value = innerHTML.trim();
+
+    setResult(value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">Calculator React</header>
+      <div className="wrp-result">
+        <Result calc={result} />
+      </div>
+      <div className="wrp-btns">
+        {btnList.map((b) => (
+          <Btn key={b} onClick={calc}>
+            {b}
+          </Btn>
+        ))}
+      </div>
     </div>
   );
 }
-

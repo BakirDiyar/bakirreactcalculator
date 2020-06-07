@@ -7,9 +7,10 @@ import { btnList } from "./components/button/listButton";
 export function Calculator({ InitialValue }) {
   const [result, setResult] = useState(InitialValue);
 
-  const calc = (e) => {
+  function calc(e){
     let { innerHTML } = e.target;
     let value = innerHTML.trim();
+    value = (value=="x")? "*" : value
 
     setResult(value);
   };
